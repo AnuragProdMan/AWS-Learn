@@ -1,3 +1,3 @@
-output "alb_dns_name" {
-  value = aws_lb.app.dns_name
+output "instance_public_ip" {
+  value = aws_instance.springboot_instance.public_ip
 }
